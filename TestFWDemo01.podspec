@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint OBDataService.podspec' to ensure this is a
+#  Be sure to run `pod spec lint TestFWDemo01.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "OBDataService"
+  spec.name         = "TestFWDemo01"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of OBDataService."
+  spec.summary      = "A short description of TestFWDemo01."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/OBDataService"
+  spec.homepage     = "http://EXAMPLE/TestFWDemo01"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/OBDataService.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "http://EXAMPLE/TestFWDemo01.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
