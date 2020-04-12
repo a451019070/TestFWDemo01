@@ -16,18 +16,19 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TestFWDemo01"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of TestFWDemo01."
+  spec.version      = "1.0.0"
+  spec.summary      = "TestFW TestFW TestFW"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
+  spec.description  = <<-DESC 
+  A tool for URL Request base on AFNetworking
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/TestFWDemo01"
+  spec.homepage     = "https://github.com/a451019070/TestFWDemo01.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,9 +53,9 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "zx" => "895843633@qq.com" }
-  # Or just: spec.author    = "zx"
-  # spec.authors            = { "zx" => "895843633@qq.com" }
+  spec.author             = { "a451019070" => "895843633@qq.com" }
+  # Or just: spec.author    = "a451019070"
+  # spec.authors            = { "a451019070" => "895843633@qq.com" }
   # spec.social_media_url   = "https://twitter.com/zx"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -63,23 +64,20 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  # spec.platform     = :iOS
+  # spec.platform     = :iOS, "5.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
-  # spec.osx.deployment_target = "10.7"
-  # spec.watchos.deployment_target = "2.0"
-  # spec.tvos.deployment_target = "9.0"
+  # spec.iOS.deployment_target = "5.0"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Specify the location from where the source should be retrieved.
-  #  Supports git, hg, bzr, svn and HTTP.
+  #  Supports git, hg, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/TestFWDemo01.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/a451019070/TestFWDemo01.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -125,13 +123,12 @@ Pod::Spec.new do |spec|
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
-  #  If your library depends on compiler flags you can set them in the xcconfig hash
-  #  where they will only apply to your library. If you depend on other Podspecs
+  #  If your library depends on compiler flags you can set them in the xc config hash
+  #  where they will only apply to your library. If you depend on other Pod specs
   #  you can include multiple dependencies to ensure it works.
 
   # spec.requires_arc = true
 
-  # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
+  
 
 end

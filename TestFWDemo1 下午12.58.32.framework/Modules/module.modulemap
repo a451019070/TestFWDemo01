@@ -1,0 +1,6 @@
+framework module TestFWDemo1 {
+  umbrella header "TestFWDemo1.h"
+
+  export *
+  module * { export * }
+}
